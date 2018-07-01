@@ -17,5 +17,5 @@ test:
 
 PHONY: run
 run:
-	pipenv run python {{cookiecutter.app_name}} $(RUN_ARGS)
+	pipenv run python -m {{cookiecutter.app_name}} $(RUN_ARGS)
 
