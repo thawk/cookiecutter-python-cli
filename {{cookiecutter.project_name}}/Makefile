@@ -8,7 +8,7 @@ endif
 	@:
 
 init:
-	pip install pipenv
+	type pipenv &> /dev/null || pip install pipenv
 	pipenv install --dev
 
 PHONY: test
